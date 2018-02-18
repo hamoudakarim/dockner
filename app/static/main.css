@@ -1,0 +1,36 @@
+body{
+    background-color: aliceblue;
+}
+.header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+.menu{
+    border: 1px solid;
+    padding: 10px;
+    background-color: darkgrey;
+}
+.menu nav{
+}
+.menu nav ul{
+    list-style-type: none;
+    margin: auto;
+    padding: 0px;
+}
+.menu nav ul li{
+    display: inline-block;
+}
+.menu nav ul li a{
+    color:#333;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu nav ul li a:hover{
+    background-color: #C56135;
+
+}

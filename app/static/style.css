@@ -1,0 +1,30 @@
+body{
+  padding-top: 70px !important;
+}
+a:active{
+  color: #fff !important;
+  background-color: #080808 !important;
+}
+.about-me{
+  margin: 20px 50px !important;
+  height: 500px !important;
+}
+.about-me p{
+  font-size: 20px !important;
+}
+mark{
+  background-color: #ffc107 !important;
+}
+.social-icons{
+  margin-top: 50px;
+}
+.social-icons i{
+padding: 10px !important;
+}
+.social-icons a:active{
+  background-color: transparent !important;
+
+}
+.animated{
+  animation-duration: 3s !important;
+}
