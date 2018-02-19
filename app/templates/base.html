@@ -12,9 +12,8 @@
     <title>{% block title %}{% endblock%}-Dockner</title>
   </head>
   <body>
-    <h1 class="header text-center">DockNer</h1>
 {% block navbar_container %}
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" name="button" class="navbar-toggle" data-toggle="collapse" data-target="#myblognavbar" aria-expanded="false">
@@ -39,8 +38,10 @@
 {% block page_container %}
 
 {% endblock %}
+
 {% endblock %}
 <script src="{{url_for('static', filename='jquery-3.2.1.min.js')}}" charset="utf-8"></script>
 <script src="{{url_for('static', filename='bootstrap.js')}}" charset="utf-8"></script>
+<footer class="footer">Made By Marzouki Wissem</footer>
   </body>
 </html>

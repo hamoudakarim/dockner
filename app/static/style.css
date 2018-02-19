@@ -1,5 +1,11 @@
+body{
+  background-color:#eee !important;
+}
+
 .navbar-brand{
   font-size: 24px !important;
+  color: #fff !important ;
+  background-color: #673ab7 !important;
 
 }
 
@@ -8,8 +14,24 @@
   margin-left: 50px !important;
   margin-right: 50px !important;
 }
-
+.navbar-nav a:hover{
+  background-color: #009688 !important ;
+}
 .navbar-nav a:active{
-  color: #fff !important;
-  background-color: #080808 !important;
+  background-color: #3f51b5 !important ;
+}
+
+.content{
+  padding-top: 70px;
+}
+.content p{
+  font-size: 18px !important;
+}
+.footer{
+    background-color: #607D8B;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    padding: 20px;
+    margin-top: 100px;
 }
