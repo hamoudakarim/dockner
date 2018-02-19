@@ -27,6 +27,12 @@ body{
 .content p{
   font-size: 18px !important;
 }
+.content h1{
+  font-size: 50px !important;
+  text-decoration: underline !important;
+  font-weight: bold !important;
+
+}
 .footer{
     background-color: #607D8B;
     text-align: center;
